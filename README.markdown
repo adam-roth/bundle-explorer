@@ -6,7 +6,7 @@
 
 bundle-explorer is a very basic Java program that allows you to modify the contents of the '.bundle' files that are used by The Witcher 3 to package all in-game content.  
 
-This program may also work for other games that make use of the same packaging format, however its intended purpose is to assist in modding The Witcher 3, and that is the only game I have tested it with.  
+This program may also work for other games that make use of the same packaging format, however its intended purpose is to assist in modding The Witcher 3, and that's the only game I've tested it with.  
 
 
 ### Getting Started
