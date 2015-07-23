@@ -50,7 +50,7 @@ The mod structure and installation batch scripts should provide a solid referenc
 
 ### FAQ
 
-**_Why create bundle-explorer?_**
+**_Why create bundle-explorer?_**<br />
 Because I was trying to create my own mod for The Witcher 3, and found that the de-facto modding tool 1) had known issues that prevented it from reimporting the particular file I was trying to mod, and 2) was artificially constrained in that it did not allow the size of any modded file to exceed the size of the original source file.  
 
 bundle-explorer's primary purpose was to solve the first point.  However it also solves the second.
