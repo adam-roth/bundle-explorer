@@ -1,4 +1,4 @@
-### matchbook
+### bundle-explorer
 ###### A lightweight modding tool for The Witcher 3
 =========
 
