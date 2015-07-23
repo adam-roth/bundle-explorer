@@ -61,7 +61,7 @@ I assume because you're a Witcher 3 modder whose efforts are being thwarted by t
 **_Why shouldn't I use bundle-explorer?_**<br />
 Don't use bundle-explorer if you're not a Witcher 3 modder, or if the other modding tools available are working for you, or if you're trying to mod a DLC package (I tried this and couldn't get it to work, I think due to issues with the DLC's 'metadata.store' file, which unlike the main metadata files the game _will not_ regenerate).
 
-**_Are there any limitations to what bundle-exploere can do?_**<br />
+**_Are there any limitations to what bundle-explorer can do?_**<br />
 The biggest limitation is that bundle-explorer does not compress any modified files when it adds them back into the bundle.  All modded content is written into the bundle with compression disabled.  For most mods this is not a problem.  However, if your mod involves tons of graphics, audio, or modeling work spread across multiple gigabytes of files, this is probbaly not the tool for you.
 
 Also see the above point about possible limitations when trying to modify DLC packages.
