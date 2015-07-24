@@ -105,7 +105,7 @@ public class BundleExplorer {
 			
 			//System.out.println("Current read offset:  " + readOffset + ", seekTo=" + file.getOffset(readOffset) + ", seekBy=" + seekBy + ", dataSize=" + file.getCompressedSize() + ", file=" + file.getFilename());
 			
-			IOUtils.readAndDiscard(in, seekBy);			//XXX:  will encounter a bunch of 0's here; their job is to align the file entries on 2KB boundaries relative to the dataOffset + header section
+			IOUtils.readAndDiscard(in, seekBy);			//XXX:  will encounter a bunch of 0's here; their job is to align the file entries on 4KB boundaries
 			readOffset += seekBy;
 			
 			//read the actual data
@@ -285,7 +285,7 @@ public class BundleExplorer {
 		private byte[] hash;			//XXX:  probably md5 checksum?			[no, not MD5; or at least, doesn't match MD5 check against the stored file data]
 		private int uncompressedSize;
 		private int compressedSize;
-		private int offset;				//absolute offset to the first byte of file data, taken from the start of the input file (i.e. including the header bytes); must be aligned on a 2KB boundary
+		private int offset;				//absolute offset to the first byte of file data, taken from the start of the input file (i.e. including the header bytes); must be aligned on a 4KB boundary
 		private long modifyTime;		//unsure of format used for this; does not appear to be unix or java timestamp
 		private int otherBytes;			//unknown purpose
 		private int compressionAlgo;	//compression used for this entry
