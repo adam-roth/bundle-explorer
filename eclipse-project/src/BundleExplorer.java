@@ -13,7 +13,7 @@ import java.util.List;
 
 /**
  * Reads a Witcher 3 'bundle' file, (optionally) replaces content with modified versions, and then writes the data 
- * back out to a new bunble file.
+ * back out to a new bundle file.
  * 
  * Intended to work around a bug in quickbms that made it impossible to mod/reimport large XML files, and also to 
  * remove the general restriction that quickbms has with respect to being unable to work with modded files that 
